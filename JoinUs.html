@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Premium Membership Registration</title>
+        <link rel="stylesheet" href="joinUs.css">
+    </head>
+    <body>
+        <header>
+            <h1><img src="images/logo.png" alt="Second Gear Logo" width="80px" height="80px"></h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="cheap.html">Cheap Car</a></li>
+                    <li><a href="premium.html">Premium Car</a></li>
+                    <li><a href="contactus.html">Contact Us</a></li>
+                    <li><a href="about.html">About Us</a></li>
+                    <li><a href="JoinUs.html">Join Us</a></li>             
+                </ul>
+            </nav>  
+        </header>
+        <main>
+        <div class="container">
+            <h2>🚗 Join Our Exclusive Membership!</h2>
+
+            <img class="join" src="images/JoinUs.png" alt="poster">
+
+            <!-- Membership Benefits Section -->
+            <div class="benefits">
+                <h3>🎉 Why Choose Our Exclusive Membership?</h3>
+                <strong>
+                <ul>
+                    <li>💰 **Instant RM5000 Discount on Car Purchases**</li>
+                    <li>🚗 **6 Free Car Washes Per Year**</li>
+                    <li>🔧 **Exclusive 15% Off Car Maintenance**</li>
+                    <li>📢 **Early Access to Newly Listed Cars**</li>
+                    <li>🏆 **Earn Points & Redeem for Cash Discounts**</li>
+                    <li>💡 **Extra RM3000 Trade-in Bonus for Used Cars**<a>(Premium only)</a></li>
+                    <li>🛠️ **Free Used Car Evaluation**<a>(Premium only)</a></li>
+                    <li>🆘 **24/7 Roadside Assistance**<a>(Premium only)</a></li>
+                    <li>🎁 **Exclusive Birthday Month Benefits!**<a>(Premium only)</a></li>
+                </ul>
+            </strong>
+            </div>
+
+            <!-- Membership Registration Form -->
+            <form action="submit.php" method="POST">
+                <h3>📝 Register Now & Unlock Premium Perks!</h3>
+
+                <label for="name">Full Name:</label>
+                <input type="text" id="name" name="name" required>
+
+                <label for="phone">Phone Number:</label>
+                <input type="tel" id="phone" name="phone" required>
+
+                <label for="email">Email:</label>
+                <input type="email" id="email">
+
+                <label for="membership">Membership Type:</label>
+                <select id="membership" name="membership">
+                    <option value="basic">Basic Member (Free)</option>
+                    <option value="premium">Premium Member (RM99/year)</option>
+                </select>
+
+                <br><strong><button type="submit">Join Now</button></strong>
+            </form>
+        </div>
+        </main>
+        <footer>
+            <p>Copyright © 2023 CAR HUB.</p>
+        </footer>
+    </body>
+</html>

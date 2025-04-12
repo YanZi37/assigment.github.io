@@ -1,0 +1,118 @@
+* {
+    padding:0;
+    margin:0;
+}
+body{
+    font-family:"Roboto", sans-serif;
+    background: linear-gradient(to bottom, #F8F7F3, #EDEAE3);
+}
+header {
+    background-color: rgba(35, 28, 26,0.8);
+    height: 80px;
+    width: 100%;
+    position:fixed;
+}
+header ul {
+    position: absolute;
+    right: 5vw;
+    top: 0px;
+    line-height: 80px;
+}
+header li {
+    display: inline;
+    margin-right: 4vw;
+}
+header a {
+    color: white;
+    text-decoration: none;
+}
+header a:hover {text-shadow: 2px 2px 7px white;}
+nav li a{color: white;}
+
+img{margin-left: 40px;}
+
+h2{
+    text-align: center;
+    font-size: large;
+}
+h2, h3 {
+    color: #1e3334;
+    text-shadow: #c4c6bf;
+}
+h2{
+  font-size: 40px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+main {
+    padding-top: 80px; 
+    margin-left: 50px;
+}
+.benefits {
+    text-align: left;
+    margin-bottom: 20px;
+    padding-left: 60px;
+}
+.benefits ul {
+    list-style: none;
+    padding: 0;
+}
+.benefits ul li {
+    background: url(images/Tick.png) no-repeat left center;
+    background-size: 20px;
+    padding-left: 30px;
+    margin-bottom: 10px;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #9e9b8f;
+}
+li a {color: #1e3334;}
+form {
+    text-align: left;
+    padding-left: 70px;
+}
+label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+input, select {
+    width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #9e9b8f;
+    border-radius: 5px;
+    background: #9e9b8f;
+}
+button {
+    margin-left: 150px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    width: 200px;
+    background: linear-gradient(90deg, white);
+    color: black;
+    padding: 12px;
+    border: 1px solid black;
+    border-radius: 5px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+button:hover {background: linear-gradient(90deg, white, pink);}
+.join{
+    float: right ;
+    width: auto;
+    height: 650px;
+    margin-right: 140px;
+    border:5px solid #1e3334;
+    border-radius: 30px;
+}
+footer {
+    background-color: #000000;
+    color: #b7b7b7;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+}
